@@ -5,17 +5,17 @@ export const styles = StyleSheet.create({
         flex: 1,
     },
     titulo: {
-        marginTop: 75,
+        marginTop: 65,
         alignItems: "center",
         color: "#B5933B",
         fontSize: 60
     },
     imagLog: {
-        width: 110,
-        height: 120,
+        width: 120,
+        height: 140,
     },
     log: {
-        marginTop: 65,
+        marginTop: 40,
         alignItems: "center",
         color: "#B5933B",
         fontSize: 30
@@ -28,9 +28,32 @@ export const styles = StyleSheet.create({
         color: "#FFFFFF",
     },
     icons: {
-        marginTop: 100,
+        width: 370,
+        marginTop: 120,
+        flexDirection: "row",
+        justifyContent: "space-around",
     },
-    elenco: {
-        
+    icons2: {
+        width: 370,
+        flexDirection: "row",
+        justifyContent: "space-around",
+    },
+    imgi: {
+        marginTop: 14,
+        width: 50,
+        height: 50,
+    },
+    imgel: {
+        width: 60,
+        height: 70,
+    },
+    imgx: {
+        width: 90,
+        height: 25,
+    },
+    imgy: {
+        marginLeft: 9,
+        width: 90,
+        height: 25,
     }
 })
