@@ -5,23 +5,33 @@ export const styles = StyleSheet.create({
         flex: 1,
     },
     titulo: {
-        marginTop: 65,
-        alignItems: "center",
+        flex: 1,
+    },
+    allvasco: {
         color: "#B5933B",
         fontSize: 60
+    },
+    tituloimg: {
+        alignItems: "center",
+        justifyContent: "center",
+        height: "55%",
     },
     imagLog: {
         width: 120,
         height: 140,
     },
     log: {
-        marginTop: 40,
+        height: "30%",
         alignItems: "center",
+        justifyContent: "center",
+    },
+    label: {
         color: "#B5933B",
-        fontSize: 30
+        fontSize: 30,
+        marginTop: 15,
     },
     input: {
-        height: 30,
+        height: 40,
         borderWidth: 2,
         minWidth: "60%",
         borderColor: "#B5933B",
@@ -29,7 +39,6 @@ export const styles = StyleSheet.create({
     },
     icons: {
         width: 370,
-        marginTop: 120,
         flexDirection: "row",
         justifyContent: "space-around",
     },
@@ -37,9 +46,9 @@ export const styles = StyleSheet.create({
         width: 370,
         flexDirection: "row",
         justifyContent: "space-around",
+        marginBottom: 40,
     },
     imgi: {
-        marginTop: 14,
         width: 50,
         height: 50,
     },
@@ -52,7 +61,6 @@ export const styles = StyleSheet.create({
         height: 25,
     },
     imgy: {
-        marginLeft: 9,
         width: 90,
         height: 25,
     }
