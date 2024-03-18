@@ -38,12 +38,11 @@ export const styles = StyleSheet.create({
         color: "#FFFFFF",
     },
     icons: {
-        width: 370,
         flexDirection: "row",
+        alignItems: "center",
         justifyContent: "space-around",
     },
     icons2: {
-        width: 370,
         flexDirection: "row",
         justifyContent: "space-around",
         marginBottom: 40,

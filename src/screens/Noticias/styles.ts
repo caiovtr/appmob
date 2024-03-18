@@ -35,37 +35,32 @@ export const styles = StyleSheet.create({
     },
     elex: {
         justifyContent: "center",
-        height: "55%",
+        height: "42.5%",
     },
-    elencoc: {
+    pnx: {
         marginLeft: 10,
         color: "#B5933B",
-        fontSize: 45
+        fontSize: 35
     },
-    squareel: {
-        height: "60%",
+    square: {
+        height: "50%",
         borderWidth: 1,
         borderRadius: 20,
         borderColor: '#FFFFFF',
-        alignItems: "center",
-        justifyContent: "center",
         margin: 25,
-    },
-    squaretec: {
-        borderWidth: 1,
-        borderRadius: 20,
-        borderColor: '#FFFFFF',
-        alignItems: "center",
-        justifyContent: "center",
-        height: "30%",
-        margin: 25,
+        alignItems: "center"
     },
     tecx: {
         justifyContent: "center",
-        height: "30%"
+        height: "42.5%"
     },
-    insquare: {
+    titnot: {
+        color: "#B5933B",
+        fontSize: 25,
+        marginStart: 15,
+    },
+    nots: {
         color: "#FFFFFF",
-        fontSize: 50,
-    },
+        fontSize: 40,
+    }
 })

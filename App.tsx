@@ -1,5 +1,6 @@
 import { Login } from './src/screens/Login'
 import { Elenco } from './src/screens/Elenco'
+import { Noticias } from './src/screens/Noticias'
 
 /*import { useFonts, nome fonte } from '@expo-google-fonts/slackey';
 
@@ -33,6 +34,6 @@ export default function App() {
     }
   */
   return (
-      <Elenco />
+      <Noticias />
   );
 }
