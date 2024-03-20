@@ -12,10 +12,9 @@ export const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "space-around",
     },
-    icons2: {
+    pontos: {
         flexDirection: "row",
         justifyContent: "space-around",
-        alignItems: "flex-end",
     },
     imgi: {
         width: 50,

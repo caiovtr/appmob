@@ -1,39 +1,26 @@
-import { Login } from './src/screens/Login'
 import { Elenco } from './src/screens/Elenco'
 import { Noticias } from './src/screens/Noticias'
+import { Login } from './src/screens/Login'
+import { Dispatch, SetStateAction, useState } from 'react'
 
-/*import { useFonts, nome fonte } from '@expo-google-fonts/slackey';
+export interface Page {
+  setPagina: Dispatch<SetStateAction<number>>
+}
 
-  export interface IPage {
-    setPageI: Dispatch<SetStateAction<number>>
-  }
-*/
 
 export default function App() {
-  /*  
-    const [page, setPage] = useState(1)
-    const [fontsLoaded] = useFonts({
-      nome da fonte
-    });
-    if (!fontsLoaded) {
-      return null
-    }
-    switch (page) {
-      case 1:
-        return <ScreenSlider1 setPageI={setPage} />
-        break;
-      case 2:
-        return <ScreenSlider1 setPageI={setPage} />
-        break;
-      case 3:
-        return <ScreenSlider1 setPageI={setPage} />
-        break;
-      default:
-        return <ScreenSlider1 setPageI={setPage} />
-        break;
-    }
-  */
-  return (
-      <Noticias />
-  );
+  const [pagina, setPage] = useState(2)
+
+  switch (pagina) {
+    case 1:
+      return <Elenco setPagina={setPage} />
+      break
+    case 2:
+      return <Login setPagina={setPage} />
+      break
+    case 3:
+      return <Noticias setPagina={setPage} />
+      break
+  }
+
 }

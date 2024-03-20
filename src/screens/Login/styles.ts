@@ -4,9 +4,6 @@ export const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
-    titulo: {
-        flex: 1,
-    },
     allvasco: {
         color: "#B5933B",
         fontSize: 60
@@ -28,7 +25,7 @@ export const styles = StyleSheet.create({
     label: {
         color: "#B5933B",
         fontSize: 30,
-        marginTop: 15,
+        marginTop: 10,
     },
     input: {
         height: 40,
@@ -42,10 +39,9 @@ export const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "space-around",
     },
-    icons2: {
+    pontos: {
         flexDirection: "row",
         justifyContent: "space-around",
-        marginBottom: 40,
     },
     imgi: {
         width: 50,
